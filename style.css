@@ -1,0 +1,121 @@
+.entete{
+    text-align: center;
+    color: orange;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#body_cal{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 8px ;
+    padding: 1%;
+    width: 280px;
+    height: 400px;
+    background: orange;
+    position: relative;
+}
+#body_cal_entete{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    height: 100px;
+    background: white;
+    margin-bottom: 15px;
+    position: static;
+    background-position: center;
+}
+#body_cal_entete{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    height: 100px;
+    background: white;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: auto;
+}
+
+.body_cal_clavier{
+    position: fixed;
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.bt1{
+    width: 100%;
+}
+.bt2{
+    width: 100%;
+}
+.bt3{
+    width: 100%;
+}
+.bt4{
+    width: 100%;
+}
+.bt5{
+    width: 100%;
+}
+.bt{
+    border: 1px solid white ;
+    border-radius: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+    background: center;
+    background: white;
+}
+.bt:hover{
+    background-color: rgb(130, 130, 130);
+}
+.bt:active {
+    transform: scale(0.90);
+}
+#elemet_fermer{
+    border: 1px solid white ;
+    background: rgb(245, 59, 59);
+}
+#elemet_fermer:hover{
+    background-color: rgb(232, 15, 15);
+}
+#element_multiplication{
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+}
+#element_addition{
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+}
+.btn4 .bt #element_soustration{
+
+}
+#elemet_egale{
+    font-size: 120%;
+    border: 1px solid white ;
+    background: rgb(42, 199, 247);
+
+}
+#elemet_egale:hover{
+    background-color: rgb(7, 182, 235);
+
+}
+
